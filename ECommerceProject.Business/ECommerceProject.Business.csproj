@@ -53,5 +53,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerceProject.Data\ECommerceProject.Data.csproj">
+      <Project>{a6a6d276-acb0-4f05-b906-939dd63486b9}</Project>
+      <Name>ECommerceProject.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
