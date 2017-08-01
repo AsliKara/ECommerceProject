@@ -39,5 +39,6 @@ namespace ECommerceProject.Data.Models.ORM.Entity
                 _isDeleted = value;
             }
         }
+        public DateTime? DeleteDate { get; set; }
     }
 }

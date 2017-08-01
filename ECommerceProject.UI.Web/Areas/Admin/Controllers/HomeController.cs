@@ -9,7 +9,8 @@ namespace ECommerceProject.UI.Web.Areas.Admin.Controllers
 {
     public class HomeController : Controller
     {
-      [LoginControl]
+     
+        
         public ActionResult Index()
         {
             return View();

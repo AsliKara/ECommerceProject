@@ -1,0 +1,12 @@
+﻿@if (ViewBag.IslemDurum == 1)
+{
+    <div class="alert alert-success">
+        The operation was carried out successfully.
+    </div>
+}
+else if (ViewBag.IslemDurum == 2)
+{
+    <div class="alert alert-danger">
+        the operation failed
+    </div>
+}

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "UpdateCategory";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+@model ECommerceProject.UI.Web.Areas.Admin.Models.CategoryVM
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Update Category</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+
+        @Html.Partial("/Areas/Admin/Views/Shared/Partial/Messages.cshtml")
+
+
+        @Html.Partial("Partial/CategoryForm")
+
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+</div>
+
+
